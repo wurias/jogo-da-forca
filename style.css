@@ -8,40 +8,34 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 102, 255, 0.37), rgba(255, 166, 0, 0.308), rgba(139, 0, 0, 0.329));
-}
-
-main {    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
     height: 100vh;
     min-width: 617px;
+    background: linear-gradient(rgba(0, 102, 255, 0.37), rgba(255, 166, 0, 0.308), rgba(139, 0, 0, 0.329));    
+}
+
+.imagem-titulo {
+    margin: 0 auto;
 }
 
 .imagem-jogo {
+    display: block;
     width: 220px;
     height: 220px;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin: 15px auto;
 }
 
 .titulo-jogo {
     font-family: 'Ballad-Frye', 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 9px #ff000096;
     text-align: center;
     font-size: 52px;
-    margin: 5px auto;
+    margin: 50px auto 10px;
 }
 
 .botoes-inicio {
     display: flex;
-    width: 100vw;
-    height: 25%;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 
 .btn-iniciar {
